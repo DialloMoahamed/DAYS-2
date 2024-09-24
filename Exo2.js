@@ -14,7 +14,6 @@ console.log(parseInt(num));
 // Réponse numero 4
 let nume = '9.81'
 let numFloat = parseFloat(num)
-
 console.log(numFloat);
 
 
