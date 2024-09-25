@@ -34,7 +34,13 @@ let randomNum = Math.floor(Math.random() * 101)
 console.log(randomNum);
 
 
-// Réponse numero 8 non trouver
+// Réponse numero 8
+let moha = Math.floor(Math.random() * 101)
+if (moha < 50) {
+    moha += 50;
+    console.log(moha)
+}
+console.log(moha)
 
 
 // Réponse numero 9
@@ -52,4 +58,4 @@ console.log(paragraphe);
 
 // Réponse numero 12
 const phrase = "You cannot end a sentence with because because because is a conjunction"
-console.log(phrase.substring(30, 55));
+console.log(phrase.substr(30, 25));
