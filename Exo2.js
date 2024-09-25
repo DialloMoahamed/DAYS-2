@@ -35,11 +35,8 @@ console.log(randomNum);
 
 
 // Réponse numero 8
-let moha = Math.floor(Math.random() * 101)
-if (moha < 50) {
-    moha += 50;
-    console.log(moha)
-}
+ let moha = Math.floor(Math.random() * 51) + 50;
+ 
 console.log(moha)
 
 
@@ -48,7 +45,11 @@ let random = Math.floor(Math.random() * 256)
 console.log(randomNum);
 
 
-// Réponse numero 10 non trouver
+// Réponse numero 10 
+let moi = "Javascript"
+let item = moi.split('');
+let index = Math.floor(Math.random() * item.length);
+console.log(item[index])
 
 
 // Réponse numero 11
